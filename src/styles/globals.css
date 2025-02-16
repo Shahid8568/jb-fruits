@@ -78,30 +78,10 @@ body {
 
 }
 
-
-@media screen and (min-width: 1200px) {
-  .heroSect {
-    background: url('../assets/images/bg2.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-}
-
 @media screen and (min-width: 0px) and (max-width: 1500px) {
   .heroSect {
-    background: rgb(0 0 0 / 58%) url('/_next/static/media/bg2.b8fc0cd0.jpg');
-    background-blend-mode: darken;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+    background-size: 100% 100% !important;
   }
-}
-
-.aboutUs{
-  background: rgba(0, 0, 0, 0.361) url('../assets/images/about-us-bg.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: darken;
 }
 
 
